@@ -1,4 +1,4 @@
-module github.com/airsounds/airsounds.github.io
+module github.com/airsounds/data
 
 go 1.14
 
