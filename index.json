@@ -1,0 +1,44 @@
+{
+ "NoaaStart": "2020-07-17T12:00:00+03:00",
+ "NoaaEnd": "2022-01-31T08:00:00+02:00",
+ "NoaaLastUpdate": "2022-01-28T05:04:39.607114735+02:00",
+ "IMSStart": "2020-10-09T15:00:00+03:00",
+ "IMSEnd": "2022-01-31T16:00:00+02:00",
+ "IMSLastUpdate": "2022-01-28T09:05:47.14192867Z",
+ "Locations": [
+  {
+   "name": "megido",
+   "lat": 32.597664,
+   "long": 35.234077,
+   "alt": 200,
+   "uwyo_station": 40179,
+   "IMSName": "AFULA NIR HAEMEQ"
+  },
+  {
+   "name": "sde-teiman",
+   "lat": 31.287645,
+   "long": 34.722855,
+   "alt": 656,
+   "uwyo_station": 40179,
+   "IMSName": "BEER SHEVA"
+  },
+  {
+   "name": "zefat",
+   "lat": 32.965717,
+   "long": 35.497227,
+   "alt": 2559,
+   "uwyo_station": 40179,
+   "IMSName": "ZEFAT HAR KENAAN"
+  },
+  {
+   "name": "bet-shaan",
+   "lat": 32.10256,
+   "long": 35.19761,
+   "alt": -394,
+   "uwyo_station": 40179,
+   "IMSName": "EDEN FARM"
+  }
+ ],
+ "UWYOStart": "2017-07-07T00:00:00+03:00",
+ "UWYOEnd": "2022-01-28T00:00:00+02:00"
+}
