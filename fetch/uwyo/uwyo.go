@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
+	"io"
 	"log"
 	"net/http"
 	"net/url"
@@ -65,7 +66,11 @@ func Fetch(station int, t time.Time) ([]*UWYO, error) {
 	}
 	defer resp.Body.Close()
 
-	doc, err := html.Parse(resp.Body)
+	return parseBody(resp.Body)
+}
+
+func parseBody(r io.Reader) ([]*UWYO, error) {
+	doc, err := html.Parse(r)
 	if err != nil {
 		return nil, err
 	}
@@ -127,17 +132,21 @@ func parseTable(headerNode *html.Node, tableNode *html.Node) (*UWYO, error) {
 	}
 
 	// Scan table content.
+	fieldLen := 7
 	for s.Scan() {
-		parts := strings.Fields(s.Text())
-		if len(parts) != 11 {
-			continue
-		}
-		appendInt(&table.Pressure, parts[0], 1)
-		appendInt(&table.Height, parts[1], 3.28084) // Convert meters to feet.
-		appendFloat(&table.Temp, parts[2], 1)
-		appendFloat(&table.Dew, parts[3], 1)
-		appendInt(&table.WindDir, parts[4], 1)
-		appendInt(&table.WindSpeed, parts[5], 1)
+		line := s.Text()
+		i := 0
+		appendInt(&table.Pressure, line[i:i+fieldLen], 1)
+		i += fieldLen
+		appendInt(&table.Height, line[i:i+fieldLen], 3.28084) // Convert meters to feet.
+		i += fieldLen
+		appendFloat(&table.Temp, line[i:i+fieldLen], 1)
+		i += fieldLen
+		appendFloat(&table.Dew, line[i:i+fieldLen], 1)
+		i += fieldLen * 3
+		appendInt(&table.WindDir, line[i:i+fieldLen], 1)
+		i += fieldLen
+		appendInt(&table.WindSpeed, line[i:i+fieldLen], 1)
 	}
 	return &table, s.Err()
 }
@@ -168,7 +177,7 @@ func findElement(n *html.Node, tag string) (*html.Node, error) {
 }
 
 func appendInt(a *[]int, s string, scale float32) error {
-	v, err := strconv.ParseFloat(s, 64)
+	v, err := strconv.ParseFloat(strings.TrimSpace(s), 64)
 	if err != nil {
 		return err
 	}
@@ -177,7 +186,7 @@ func appendInt(a *[]int, s string, scale float32) error {
 }
 
 func appendFloat(a *[]float32, s string, scale float32) error {
-	v, err := strconv.ParseFloat(s, 64)
+	v, err := strconv.ParseFloat(strings.TrimSpace(s), 64)
 	if err != nil {
 		return err
 	}
