@@ -31,6 +31,7 @@ type Location struct {
 	Alt         int     `json:"alt"`
 	UWYOStation int     `json:"uwyo_station"`
 	IMSName     string  `json:-`
+	RunwayDir   int     `json:"runway_dir,omitempty"`
 }
 
 var locations = []Location{
@@ -41,6 +42,7 @@ var locations = []Location{
 		Alt:         200,
 		IMSName:     "AFULA NIR HAEMEQ",
 		UWYOStation: 40179, // Bet Dagan
+		RunwayDir:   270,
 	},
 	{
 		Name:        "sde-teiman",
