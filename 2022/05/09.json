@@ -90,5 +90,51 @@
    "noaa": null,
    "uwyo": null
   }
+ },
+ "23": {
+  "bet-shaan": {
+   "ims": {
+    "Time": "2022-05-08T23:00:00Z",
+    "Temp": 17.2,
+    "RelHum": 59,
+    "WindSpeed": 1.5,
+    "WindDir": 357
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "megido": {
+   "ims": {
+    "Time": "2022-05-08T23:00:00Z",
+    "Temp": 15.1,
+    "RelHum": 62,
+    "WindSpeed": 0.3,
+    "WindDir": 32
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "sde-teiman": {
+   "ims": {
+    "Time": "2022-05-08T23:00:00Z",
+    "Temp": 17.7,
+    "RelHum": 34,
+    "WindSpeed": 2.5,
+    "WindDir": 94
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "zefat": {
+   "ims": {
+    "Time": "2022-05-08T23:00:00Z",
+    "Temp": 15.2,
+    "RelHum": 28,
+    "WindSpeed": 4,
+    "WindDir": 340
+   },
+   "noaa": null,
+   "uwyo": null
+  }
  }
 }
