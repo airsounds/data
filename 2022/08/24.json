@@ -425,8 +425,8 @@
   "sde-teiman": {
    "ims": {
     "Time": "2022-08-24T00:00:00Z",
-    "Temp": 21,
-    "RelHum": 81,
+    "Temp": 21.1,
+    "RelHum": 82,
     "WindSpeed": 1.4,
     "WindDir": 141
    },
@@ -636,7 +636,7 @@
   "zefat": {
    "ims": {
     "Time": "2022-08-24T00:00:00Z",
-    "Temp": 20.1,
+    "Temp": 20.2,
     "RelHum": 58,
     "WindSpeed": 2.3,
     "WindDir": 312
@@ -1271,7 +1271,7 @@
   "sde-teiman": {
    "ims": {
     "Time": "2022-08-24T01:00:00Z",
-    "Temp": 20.5,
+    "Temp": 20.6,
     "RelHum": 80,
     "WindSpeed": 1.5,
     "WindDir": 149
@@ -11848,7 +11848,7 @@
    "ims": {
     "Time": "2022-08-23T21:00:00Z",
     "Temp": 27.5,
-    "RelHum": 71,
+    "RelHum": 72,
     "WindSpeed": 1.5,
     "WindDir": 288
    },
@@ -12058,8 +12058,8 @@
   "megido": {
    "ims": {
     "Time": "2022-08-23T21:00:00Z",
-    "Temp": 24.3,
-    "RelHum": 85,
+    "Temp": 24.4,
+    "RelHum": 84,
     "WindSpeed": 1,
     "WindDir": 253
    },
@@ -12269,8 +12269,8 @@
   "sde-teiman": {
    "ims": {
     "Time": "2022-08-23T21:00:00Z",
-    "Temp": 23.6,
-    "RelHum": 76,
+    "Temp": 23.8,
+    "RelHum": 77,
     "WindSpeed": 0.5,
     "WindDir": 11
    },
@@ -12480,8 +12480,8 @@
   "zefat": {
    "ims": {
     "Time": "2022-08-23T21:00:00Z",
-    "Temp": 20.6,
-    "RelHum": 54,
+    "Temp": 20.8,
+    "RelHum": 55,
     "WindSpeed": 2.6,
     "WindDir": 327
    },
@@ -12694,7 +12694,7 @@
    "ims": {
     "Time": "2022-08-23T22:00:00Z",
     "Temp": 26.8,
-    "RelHum": 74,
+    "RelHum": 75,
     "WindSpeed": 1.4,
     "WindDir": 286
    },
@@ -12904,7 +12904,7 @@
   "megido": {
    "ims": {
     "Time": "2022-08-23T22:00:00Z",
-    "Temp": 23.7,
+    "Temp": 23.8,
     "RelHum": 86,
     "WindSpeed": 1,
     "WindDir": 245
@@ -13115,7 +13115,7 @@
   "sde-teiman": {
    "ims": {
     "Time": "2022-08-23T22:00:00Z",
-    "Temp": 23,
+    "Temp": 23.1,
     "RelHum": 78,
     "WindSpeed": 0.1,
     "WindDir": 186
@@ -13326,7 +13326,7 @@
   "zefat": {
    "ims": {
     "Time": "2022-08-23T22:00:00Z",
-    "Temp": 20.4,
+    "Temp": 20.5,
     "RelHum": 55,
     "WindSpeed": 2.2,
     "WindDir": 323
@@ -13750,7 +13750,7 @@
   "megido": {
    "ims": {
     "Time": "2022-08-23T23:00:00Z",
-    "Temp": 23,
+    "Temp": 23.1,
     "RelHum": 88,
     "WindSpeed": 0.9,
     "WindDir": 240
@@ -14172,7 +14172,7 @@
   "zefat": {
    "ims": {
     "Time": "2022-08-23T23:00:00Z",
-    "Temp": 20.3,
+    "Temp": 20.4,
     "RelHum": 55,
     "WindSpeed": 2.2,
     "WindDir": 318
