@@ -8155,8 +8155,8 @@
     "Time": "2022-10-19T17:00:00Z",
     "Temp": 25.8,
     "RelHum": 60,
-    "WindSpeed": 5.8,
-    "WindDir": 0
+    "WindSpeed": 5.6,
+    "WindDir": 342
    },
    "noaa": {
     "Time": "2022-10-19T17:00:00Z",
@@ -8365,9 +8365,9 @@
    "ims": {
     "Time": "2022-10-19T17:00:00Z",
     "Temp": 23.3,
-    "RelHum": 67,
+    "RelHum": 71,
     "WindSpeed": 2.8,
-    "WindDir": 263
+    "WindDir": 258
    },
    "noaa": {
     "Time": "2022-10-19T17:00:00Z",
@@ -8575,10 +8575,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2022-10-19T17:00:00Z",
-    "Temp": 21.6,
+    "Temp": 21.8,
     "RelHum": 67,
-    "WindSpeed": 2.7,
-    "WindDir": 332
+    "WindSpeed": 2,
+    "WindDir": 333
    },
    "noaa": {
     "Time": "2022-10-19T17:00:00Z",
@@ -8786,10 +8786,10 @@
   "zefat": {
    "ims": {
     "Time": "2022-10-19T17:00:00Z",
-    "Temp": 16.4,
-    "RelHum": 71,
-    "WindSpeed": 5.8,
-    "WindDir": 305
+    "Temp": 16.1,
+    "RelHum": 73,
+    "WindSpeed": 4.7,
+    "WindDir": 317
    },
    "noaa": {
     "Time": "2022-10-19T17:00:00Z",
@@ -9001,8 +9001,8 @@
     "Time": "2022-10-19T18:00:00Z",
     "Temp": 25,
     "RelHum": 67,
-    "WindSpeed": 5.4,
-    "WindDir": 7
+    "WindSpeed": 5.1,
+    "WindDir": 348
    },
    "noaa": {
     "Time": "2022-10-19T18:00:00Z",
@@ -9211,9 +9211,9 @@
    "ims": {
     "Time": "2022-10-19T18:00:00Z",
     "Temp": 22.4,
-    "RelHum": 72,
-    "WindSpeed": 2.5,
-    "WindDir": 260
+    "RelHum": 75,
+    "WindSpeed": 2.6,
+    "WindDir": 254
    },
    "noaa": {
     "Time": "2022-10-19T18:00:00Z",
@@ -9421,9 +9421,9 @@
   "sde-teiman": {
    "ims": {
     "Time": "2022-10-19T18:00:00Z",
-    "Temp": 20.9,
+    "Temp": 21.1,
     "RelHum": 71,
-    "WindSpeed": 2,
+    "WindSpeed": 1.9,
     "WindDir": 341
    },
    "noaa": {
@@ -9632,10 +9632,10 @@
   "zefat": {
    "ims": {
     "Time": "2022-10-19T18:00:00Z",
-    "Temp": 15.4,
-    "RelHum": 76,
-    "WindSpeed": 5.5,
-    "WindDir": 305
+    "Temp": 15.2,
+    "RelHum": 77,
+    "WindSpeed": 4.5,
+    "WindDir": 318
    },
    "noaa": {
     "Time": "2022-10-19T18:00:00Z",
@@ -9847,8 +9847,8 @@
     "Time": "2022-10-19T19:00:00Z",
     "Temp": 24.6,
     "RelHum": 69,
-    "WindSpeed": 4.1,
-    "WindDir": 4
+    "WindSpeed": 4.6,
+    "WindDir": 350
    },
    "noaa": {
     "Time": "2022-10-19T19:00:00Z",
@@ -10057,9 +10057,9 @@
    "ims": {
     "Time": "2022-10-19T19:00:00Z",
     "Temp": 21.7,
-    "RelHum": 76,
-    "WindSpeed": 1.9,
-    "WindDir": 256
+    "RelHum": 79,
+    "WindSpeed": 2.4,
+    "WindDir": 249
    },
    "noaa": {
     "Time": "2022-10-19T19:00:00Z",
@@ -10267,10 +10267,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2022-10-19T19:00:00Z",
-    "Temp": 20.4,
-    "RelHum": 74,
-    "WindSpeed": 1.6,
-    "WindDir": 7
+    "Temp": 20.6,
+    "RelHum": 73,
+    "WindSpeed": 1.5,
+    "WindDir": 357
    },
    "noaa": {
     "Time": "2022-10-19T19:00:00Z",
@@ -10478,10 +10478,10 @@
   "zefat": {
    "ims": {
     "Time": "2022-10-19T19:00:00Z",
-    "Temp": 14.8,
-    "RelHum": 81,
-    "WindSpeed": 4.4,
-    "WindDir": 301
+    "Temp": 14.6,
+    "RelHum": 83,
+    "WindSpeed": 4,
+    "WindDir": 317
    },
    "noaa": {
     "Time": "2022-10-19T19:00:00Z",
@@ -11538,9 +11538,9 @@
    "ims": {
     "Time": "2022-10-19T20:00:00Z",
     "Temp": 23.7,
-    "RelHum": 73,
-    "WindSpeed": 2.8,
-    "WindDir": 3
+    "RelHum": 74,
+    "WindSpeed": 3.4,
+    "WindDir": 351
    },
    "noaa": {
     "Time": "2022-10-19T20:00:00Z",
@@ -11749,9 +11749,9 @@
    "ims": {
     "Time": "2022-10-19T20:00:00Z",
     "Temp": 20.8,
-    "RelHum": 80,
-    "WindSpeed": 1.4,
-    "WindDir": 247
+    "RelHum": 84,
+    "WindSpeed": 1.8,
+    "WindDir": 242
    },
    "noaa": {
     "Time": "2022-10-19T20:00:00Z",
@@ -11959,10 +11959,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2022-10-19T20:00:00Z",
-    "Temp": 20,
-    "RelHum": 75,
-    "WindSpeed": 1.5,
-    "WindDir": 36
+    "Temp": 20.1,
+    "RelHum": 74,
+    "WindSpeed": 1.4,
+    "WindDir": 21
    },
    "noaa": {
     "Time": "2022-10-19T20:00:00Z",
@@ -12170,10 +12170,10 @@
   "zefat": {
    "ims": {
     "Time": "2022-10-19T20:00:00Z",
-    "Temp": 14.6,
-    "RelHum": 81,
-    "WindSpeed": 3.8,
-    "WindDir": 298
+    "Temp": 14.2,
+    "RelHum": 85,
+    "WindSpeed": 3.6,
+    "WindDir": 311
    },
    "noaa": {
     "Time": "2022-10-19T20:00:00Z",
