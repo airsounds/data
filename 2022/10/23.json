@@ -7615,7 +7615,13 @@
  },
  "17": {
   "bet-shaan": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-10-23T17:00:00Z",
+    "Temp": 25.6,
+    "RelHum": 49,
+    "WindSpeed": 3.4,
+    "WindDir": 286
+   },
    "noaa": {
     "Time": "2022-10-23T17:00:00Z",
     "Pressure": [
@@ -7820,7 +7826,13 @@
    "uwyo": null
   },
   "megido": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-10-23T17:00:00Z",
+    "Temp": 24.6,
+    "RelHum": 47,
+    "WindSpeed": 1.8,
+    "WindDir": 306
+   },
    "noaa": {
     "Time": "2022-10-23T17:00:00Z",
     "Pressure": [
@@ -8025,7 +8037,13 @@
    "uwyo": null
   },
   "sde-teiman": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-10-23T17:00:00Z",
+    "Temp": 22.5,
+    "RelHum": 71,
+    "WindSpeed": 3.2,
+    "WindDir": 321
+   },
    "noaa": {
     "Time": "2022-10-23T17:00:00Z",
     "Pressure": [
@@ -8230,7 +8248,13 @@
    "uwyo": null
   },
   "zefat": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-10-23T17:00:00Z",
+    "Temp": 21.4,
+    "RelHum": 45,
+    "WindSpeed": 5.8,
+    "WindDir": 19
+   },
    "noaa": {
     "Time": "2022-10-23T17:00:00Z",
     "Pressure": [
@@ -8437,7 +8461,13 @@
  },
  "18": {
   "bet-shaan": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-10-23T18:00:00Z",
+    "Temp": 24.7,
+    "RelHum": 50,
+    "WindSpeed": 3.2,
+    "WindDir": 295
+   },
    "noaa": {
     "Time": "2022-10-23T18:00:00Z",
     "Pressure": [
@@ -8642,7 +8672,13 @@
    "uwyo": null
   },
   "megido": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-10-23T18:00:00Z",
+    "Temp": 23.6,
+    "RelHum": 52,
+    "WindSpeed": 1.7,
+    "WindDir": 305
+   },
    "noaa": {
     "Time": "2022-10-23T18:00:00Z",
     "Pressure": [
@@ -8847,7 +8883,13 @@
    "uwyo": null
   },
   "sde-teiman": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-10-23T18:00:00Z",
+    "Temp": 21.5,
+    "RelHum": 76,
+    "WindSpeed": 2.8,
+    "WindDir": 316
+   },
    "noaa": {
     "Time": "2022-10-23T18:00:00Z",
     "Pressure": [
@@ -9052,7 +9094,13 @@
    "uwyo": null
   },
   "zefat": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-10-23T18:00:00Z",
+    "Temp": 21.4,
+    "RelHum": 45,
+    "WindSpeed": 5.9,
+    "WindDir": 17
+   },
    "noaa": {
     "Time": "2022-10-23T18:00:00Z",
     "Pressure": [
