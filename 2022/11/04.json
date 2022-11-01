@@ -6815,7 +6815,13 @@
  },
  "17": {
   "bet-shaan": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-11-04T17:00:00Z",
+    "Temp": 22.7,
+    "RelHum": 60,
+    "WindSpeed": 3.4,
+    "WindDir": 318
+   },
    "noaa": {
     "Time": "2022-11-04T17:00:00Z",
     "Pressure": [
@@ -7020,7 +7026,13 @@
    "uwyo": null
   },
   "megido": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-11-04T17:00:00Z",
+    "Temp": 19.9,
+    "RelHum": 70,
+    "WindSpeed": 1,
+    "WindDir": 289
+   },
    "noaa": {
     "Time": "2022-11-04T17:00:00Z",
     "Pressure": [
@@ -7225,7 +7237,13 @@
    "uwyo": null
   },
   "sde-teiman": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-11-04T17:00:00Z",
+    "Temp": 19.6,
+    "RelHum": 63,
+    "WindSpeed": 2.8,
+    "WindDir": 2
+   },
    "noaa": {
     "Time": "2022-11-04T17:00:00Z",
     "Pressure": [
@@ -7430,7 +7448,13 @@
    "uwyo": null
   },
   "zefat": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-11-04T17:00:00Z",
+    "Temp": 14.8,
+    "RelHum": 63,
+    "WindSpeed": 4.2,
+    "WindDir": 344
+   },
    "noaa": {
     "Time": "2022-11-04T17:00:00Z",
     "Pressure": [
@@ -7637,7 +7661,13 @@
  },
  "18": {
   "bet-shaan": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-11-04T18:00:00Z",
+    "Temp": 21.2,
+    "RelHum": 67,
+    "WindSpeed": 2.6,
+    "WindDir": 321
+   },
    "noaa": {
     "Time": "2022-11-04T18:00:00Z",
     "Pressure": [
@@ -7842,7 +7872,13 @@
    "uwyo": null
   },
   "megido": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-11-04T18:00:00Z",
+    "Temp": 19.2,
+    "RelHum": 74,
+    "WindSpeed": 0.8,
+    "WindDir": 280
+   },
    "noaa": {
     "Time": "2022-11-04T18:00:00Z",
     "Pressure": [
@@ -8047,7 +8083,13 @@
    "uwyo": null
   },
   "sde-teiman": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-11-04T18:00:00Z",
+    "Temp": 19.1,
+    "RelHum": 64,
+    "WindSpeed": 2.7,
+    "WindDir": 8
+   },
    "noaa": {
     "Time": "2022-11-04T18:00:00Z",
     "Pressure": [
@@ -8252,7 +8294,13 @@
    "uwyo": null
   },
   "zefat": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-11-04T18:00:00Z",
+    "Temp": 14.4,
+    "RelHum": 61,
+    "WindSpeed": 3.5,
+    "WindDir": 344
+   },
    "noaa": {
     "Time": "2022-11-04T18:00:00Z",
     "Pressure": [
