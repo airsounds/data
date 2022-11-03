@@ -8461,7 +8461,13 @@
  },
  "18": {
   "bet-shaan": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-11-06T18:00:00Z",
+    "Temp": 22,
+    "RelHum": 75,
+    "WindSpeed": 3,
+    "WindDir": 292
+   },
    "noaa": {
     "Time": "2022-11-06T18:00:00Z",
     "Pressure": [
@@ -8666,7 +8672,13 @@
    "uwyo": null
   },
   "megido": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-11-06T18:00:00Z",
+    "Temp": 20.2,
+    "RelHum": 83,
+    "WindSpeed": 1.5,
+    "WindDir": 274
+   },
    "noaa": {
     "Time": "2022-11-06T18:00:00Z",
     "Pressure": [
@@ -8871,7 +8883,13 @@
    "uwyo": null
   },
   "sde-teiman": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-11-06T18:00:00Z",
+    "Temp": 19.4,
+    "RelHum": 82,
+    "WindSpeed": 2.6,
+    "WindDir": 343
+   },
    "noaa": {
     "Time": "2022-11-06T18:00:00Z",
     "Pressure": [
@@ -9076,7 +9094,13 @@
    "uwyo": null
   },
   "zefat": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-11-06T18:00:00Z",
+    "Temp": 17.1,
+    "RelHum": 54,
+    "WindSpeed": 0.9,
+    "WindDir": 335
+   },
    "noaa": {
     "Time": "2022-11-06T18:00:00Z",
     "Pressure": [
