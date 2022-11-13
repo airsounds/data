@@ -10,7 +10,7 @@ import (
 	"golang.org/x/net/html/charset"
 )
 
-const forecastPath = "https://ims.data.gov.il/sites/default/files/IMS_001.xml"
+const forecastPath = "https://ims.gov.il/sites/default/files/ims_data/xml_files/IMS_001.xml"
 
 type ForecastTime struct {
 	time.Time
