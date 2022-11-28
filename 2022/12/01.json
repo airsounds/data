@@ -1693,7 +1693,13 @@
  },
  "10": {
   "bet-shaan": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-12-01T10:00:00Z",
+    "Temp": 22.4,
+    "RelHum": 49,
+    "WindSpeed": 0.2,
+    "WindDir": 135
+   },
    "noaa": {
     "Time": "2022-12-01T10:00:00Z",
     "Pressure": [
@@ -1898,7 +1904,13 @@
    "uwyo": null
   },
   "megido": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-12-01T10:00:00Z",
+    "Temp": 22.6,
+    "RelHum": 44,
+    "WindSpeed": 2.6,
+    "WindDir": 105
+   },
    "noaa": {
     "Time": "2022-12-01T10:00:00Z",
     "Pressure": [
@@ -2103,7 +2115,13 @@
    "uwyo": null
   },
   "sde-teiman": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-12-01T10:00:00Z",
+    "Temp": 23.7,
+    "RelHum": 33,
+    "WindSpeed": 2.2,
+    "WindDir": 118
+   },
    "noaa": {
     "Time": "2022-12-01T10:00:00Z",
     "Pressure": [
@@ -2308,7 +2326,13 @@
    "uwyo": null
   },
   "zefat": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-12-01T10:00:00Z",
+    "Temp": 13.9,
+    "RelHum": 58,
+    "WindSpeed": 4.3,
+    "WindDir": 131
+   },
    "noaa": {
     "Time": "2022-12-01T10:00:00Z",
     "Pressure": [
@@ -2515,7 +2539,13 @@
  },
  "11": {
   "bet-shaan": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-12-01T11:00:00Z",
+    "Temp": 23.7,
+    "RelHum": 44,
+    "WindSpeed": 0.6,
+    "WindDir": 127
+   },
    "noaa": {
     "Time": "2022-12-01T11:00:00Z",
     "Pressure": [
@@ -2720,7 +2750,13 @@
    "uwyo": null
   },
   "megido": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-12-01T11:00:00Z",
+    "Temp": 23,
+    "RelHum": 42,
+    "WindSpeed": 2.5,
+    "WindDir": 109
+   },
    "noaa": {
     "Time": "2022-12-01T11:00:00Z",
     "Pressure": [
@@ -2925,7 +2961,13 @@
    "uwyo": null
   },
   "sde-teiman": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-12-01T11:00:00Z",
+    "Temp": 23.9,
+    "RelHum": 31,
+    "WindSpeed": 1.9,
+    "WindDir": 112
+   },
    "noaa": {
     "Time": "2022-12-01T11:00:00Z",
     "Pressure": [
@@ -3130,7 +3172,13 @@
    "uwyo": null
   },
   "zefat": {
-   "ims": null,
+   "ims": {
+    "Time": "2022-12-01T11:00:00Z",
+    "Temp": 14.4,
+    "RelHum": 53,
+    "WindSpeed": 4.1,
+    "WindDir": 132
+   },
    "noaa": {
     "Time": "2022-12-01T11:00:00Z",
     "Pressure": [
