@@ -1,4 +1,50 @@
 {
+ "0": {
+  "bet-shaan": {
+   "ims": {
+    "Time": "2023-01-01T00:00:00Z",
+    "Temp": 12.1,
+    "RelHum": 66,
+    "WindSpeed": 4.4,
+    "WindDir": 60
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "megido": {
+   "ims": {
+    "Time": "2023-01-01T00:00:00Z",
+    "Temp": 10.6,
+    "RelHum": 65,
+    "WindSpeed": 4.8,
+    "WindDir": 76
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "sde-teiman": {
+   "ims": {
+    "Time": "2023-01-01T00:00:00Z",
+    "Temp": 11.1,
+    "RelHum": 71,
+    "WindSpeed": 3.6,
+    "WindDir": 90
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "zefat": {
+   "ims": {
+    "Time": "2023-01-01T00:00:00Z",
+    "Temp": 8.2,
+    "RelHum": 70,
+    "WindSpeed": 4.3,
+    "WindDir": 88
+   },
+   "noaa": null,
+   "uwyo": null
+  }
+ },
  "22": {
   "bet-shaan": {
    "ims": {
