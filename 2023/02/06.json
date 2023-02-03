@@ -12592,5 +12592,51 @@
    },
    "uwyo": null
   }
+ },
+ "9": {
+  "bet-shaan": {
+   "ims": {
+    "Time": "2023-02-06T09:00:00Z",
+    "Temp": 16.8,
+    "RelHum": 46,
+    "WindSpeed": 7.6,
+    "WindDir": 209
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "megido": {
+   "ims": {
+    "Time": "2023-02-06T09:00:00Z",
+    "Temp": 11.9,
+    "RelHum": 70,
+    "WindSpeed": 5,
+    "WindDir": 230
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "sde-teiman": {
+   "ims": {
+    "Time": "2023-02-06T09:00:00Z",
+    "Temp": 13.2,
+    "RelHum": 51,
+    "WindSpeed": 9.3,
+    "WindDir": 244
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "zefat": {
+   "ims": {
+    "Time": "2023-02-06T09:00:00Z",
+    "Temp": 4.6,
+    "RelHum": 83,
+    "WindSpeed": 12.3,
+    "WindDir": 221
+   },
+   "noaa": null,
+   "uwyo": null
+  }
  }
 }
