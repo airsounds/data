@@ -1693,7 +1693,13 @@
  },
  "10": {
   "bet-shaan": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-07-13T10:00:00Z",
+    "Temp": 41,
+    "RelHum": 15,
+    "WindSpeed": 1,
+    "WindDir": 320
+   },
    "noaa": {
     "Time": "2023-07-13T10:00:00Z",
     "Pressure": [
@@ -1898,7 +1904,13 @@
    "uwyo": null
   },
   "megido": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-07-13T10:00:00Z",
+    "Temp": 38.8,
+    "RelHum": 20,
+    "WindSpeed": 2.6,
+    "WindDir": 287
+   },
    "noaa": {
     "Time": "2023-07-13T10:00:00Z",
     "Pressure": [
@@ -2103,7 +2115,13 @@
    "uwyo": null
   },
   "sde-teiman": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-07-13T10:00:00Z",
+    "Temp": 36.7,
+    "RelHum": 27,
+    "WindSpeed": 3.8,
+    "WindDir": 330
+   },
    "noaa": {
     "Time": "2023-07-13T10:00:00Z",
     "Pressure": [
@@ -2308,7 +2326,13 @@
    "uwyo": null
   },
   "zefat": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-07-13T10:00:00Z",
+    "Temp": 31.4,
+    "RelHum": 22,
+    "WindSpeed": 2.9,
+    "WindDir": 224
+   },
    "noaa": {
     "Time": "2023-07-13T10:00:00Z",
     "Pressure": [
@@ -2515,7 +2539,13 @@
  },
  "11": {
   "bet-shaan": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-07-13T11:00:00Z",
+    "Temp": 42.6,
+    "RelHum": 13,
+    "WindSpeed": 2.2,
+    "WindDir": 305
+   },
    "noaa": {
     "Time": "2023-07-13T11:00:00Z",
     "Pressure": [
@@ -2720,7 +2750,13 @@
    "uwyo": null
   },
   "megido": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-07-13T11:00:00Z",
+    "Temp": 38.9,
+    "RelHum": 18,
+    "WindSpeed": 3.2,
+    "WindDir": 303
+   },
    "noaa": {
     "Time": "2023-07-13T11:00:00Z",
     "Pressure": [
@@ -2925,7 +2961,13 @@
    "uwyo": null
   },
   "sde-teiman": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-07-13T11:00:00Z",
+    "Temp": 37.3,
+    "RelHum": 27,
+    "WindSpeed": 4.6,
+    "WindDir": 336
+   },
    "noaa": {
     "Time": "2023-07-13T11:00:00Z",
     "Pressure": [
@@ -3130,7 +3172,13 @@
    "uwyo": null
   },
   "zefat": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-07-13T11:00:00Z",
+    "Temp": 31.8,
+    "RelHum": 21,
+    "WindSpeed": 2.7,
+    "WindDir": 258
+   },
    "noaa": {
     "Time": "2023-07-13T11:00:00Z",
     "Pressure": [
