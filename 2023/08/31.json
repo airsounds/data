@@ -8550,5 +8550,51 @@
    "noaa": null,
    "uwyo": null
   }
+ },
+ "9": {
+  "bet-shaan": {
+   "ims": {
+    "Time": "2023-08-31T09:00:00Z",
+    "Temp": 34.9,
+    "RelHum": 43,
+    "WindSpeed": 0.9,
+    "WindDir": 17
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "megido": {
+   "ims": {
+    "Time": "2023-08-31T09:00:00Z",
+    "Temp": 34.4,
+    "RelHum": 44,
+    "WindSpeed": 1.8,
+    "WindDir": 273
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "sde-teiman": {
+   "ims": {
+    "Time": "2023-08-31T09:00:00Z",
+    "Temp": 32.9,
+    "RelHum": 34,
+    "WindSpeed": 2,
+    "WindDir": 305
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "zefat": {
+   "ims": {
+    "Time": "2023-08-31T09:00:00Z",
+    "Temp": 26.3,
+    "RelHum": 53,
+    "WindSpeed": 1.7,
+    "WindDir": 249
+   },
+   "noaa": null,
+   "uwyo": null
+  }
  }
 }
