@@ -5923,7 +5923,13 @@
  },
  "15": {
   "bet-shaan": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-09-18T15:00:00Z",
+    "Temp": 32.3,
+    "RelHum": 45,
+    "WindSpeed": 4.6,
+    "WindDir": 293
+   },
    "noaa": {
     "Time": "2023-09-18T15:00:00Z",
     "Pressure": [
@@ -6128,7 +6134,13 @@
    "uwyo": null
   },
   "megido": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-09-18T15:00:00Z",
+    "Temp": 29.6,
+    "RelHum": 59,
+    "WindSpeed": 2.5,
+    "WindDir": 288
+   },
    "noaa": {
     "Time": "2023-09-18T15:00:00Z",
     "Pressure": [
@@ -6333,7 +6345,13 @@
    "uwyo": null
   },
   "sde-teiman": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-09-18T15:00:00Z",
+    "Temp": 29,
+    "RelHum": 54,
+    "WindSpeed": 4.1,
+    "WindDir": 326
+   },
    "noaa": {
     "Time": "2023-09-18T15:00:00Z",
     "Pressure": [
@@ -6538,7 +6556,13 @@
    "uwyo": null
   },
   "zefat": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-09-18T15:00:00Z",
+    "Temp": 24.1,
+    "RelHum": 38,
+    "WindSpeed": 5.3,
+    "WindDir": 326
+   },
    "noaa": {
     "Time": "2023-09-18T15:00:00Z",
     "Pressure": [
@@ -6745,7 +6769,13 @@
  },
  "16": {
   "bet-shaan": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-09-18T16:00:00Z",
+    "Temp": 30.3,
+    "RelHum": 56,
+    "WindSpeed": 3.6,
+    "WindDir": 297
+   },
    "noaa": {
     "Time": "2023-09-18T16:00:00Z",
     "Pressure": [
@@ -6950,7 +6980,13 @@
    "uwyo": null
   },
   "megido": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-09-18T16:00:00Z",
+    "Temp": 27.5,
+    "RelHum": 73,
+    "WindSpeed": 1.9,
+    "WindDir": 286
+   },
    "noaa": {
     "Time": "2023-09-18T16:00:00Z",
     "Pressure": [
@@ -7155,7 +7191,13 @@
    "uwyo": null
   },
   "sde-teiman": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-09-18T16:00:00Z",
+    "Temp": 26.6,
+    "RelHum": 68,
+    "WindSpeed": 3.6,
+    "WindDir": 332
+   },
    "noaa": {
     "Time": "2023-09-18T16:00:00Z",
     "Pressure": [
@@ -7360,7 +7402,13 @@
    "uwyo": null
   },
   "zefat": {
-   "ims": null,
+   "ims": {
+    "Time": "2023-09-18T16:00:00Z",
+    "Temp": 23.2,
+    "RelHum": 37,
+    "WindSpeed": 5,
+    "WindDir": 330
+   },
    "noaa": {
     "Time": "2023-09-18T16:00:00Z",
     "Pressure": [
