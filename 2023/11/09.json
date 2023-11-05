@@ -3,10 +3,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2023-11-09T00:00:00Z",
-    "Temp": 18.3,
-    "RelHum": 94,
-    "WindSpeed": 1.9,
-    "WindDir": 336
+    "Temp": 18.8,
+    "RelHum": 91,
+    "WindSpeed": 1.8,
+    "WindDir": 326
    },
    "noaa": null,
    "uwyo": null
@@ -14,10 +14,10 @@
   "megido": {
    "ims": {
     "Time": "2023-11-09T00:00:00Z",
-    "Temp": 16.2,
+    "Temp": 16.5,
     "RelHum": 100,
-    "WindSpeed": 0.7,
-    "WindDir": 295
+    "WindSpeed": 0.9,
+    "WindDir": 284
    },
    "noaa": null,
    "uwyo": null
@@ -25,10 +25,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2023-11-09T00:00:00Z",
-    "Temp": 17.5,
-    "RelHum": 79,
-    "WindSpeed": 1.3,
-    "WindDir": 147
+    "Temp": 17.3,
+    "RelHum": 81,
+    "WindSpeed": 0.9,
+    "WindDir": 164
    },
    "noaa": null,
    "uwyo": null
@@ -36,10 +36,56 @@
   "zefat": {
    "ims": {
     "Time": "2023-11-09T00:00:00Z",
-    "Temp": 18.8,
-    "RelHum": 43,
-    "WindSpeed": 0.6,
-    "WindDir": 107
+    "Temp": 17.6,
+    "RelHum": 48,
+    "WindSpeed": 0.2,
+    "WindDir": 121
+   },
+   "noaa": null,
+   "uwyo": null
+  }
+ },
+ "1": {
+  "bet-shaan": {
+   "ims": {
+    "Time": "2023-11-09T01:00:00Z",
+    "Temp": 18.5,
+    "RelHum": 91,
+    "WindSpeed": 1.7,
+    "WindDir": 326
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "megido": {
+   "ims": {
+    "Time": "2023-11-09T01:00:00Z",
+    "Temp": 15.8,
+    "RelHum": 100,
+    "WindSpeed": 0.8,
+    "WindDir": 278
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "sde-teiman": {
+   "ims": {
+    "Time": "2023-11-09T01:00:00Z",
+    "Temp": 17.1,
+    "RelHum": 82,
+    "WindSpeed": 0.5,
+    "WindDir": 149
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "zefat": {
+   "ims": {
+    "Time": "2023-11-09T01:00:00Z",
+    "Temp": 17.4,
+    "RelHum": 47,
+    "WindSpeed": 0.4,
+    "WindDir": 160
    },
    "noaa": null,
    "uwyo": null
@@ -50,9 +96,9 @@
    "ims": {
     "Time": "2023-11-08T22:00:00Z",
     "Temp": 19.7,
-    "RelHum": 89,
-    "WindSpeed": 2.1,
-    "WindDir": 330
+    "RelHum": 90,
+    "WindSpeed": 2.2,
+    "WindDir": 325
    },
    "noaa": null,
    "uwyo": null
@@ -61,9 +107,9 @@
    "ims": {
     "Time": "2023-11-08T22:00:00Z",
     "Temp": 17.4,
-    "RelHum": 97,
+    "RelHum": 98,
     "WindSpeed": 1,
-    "WindDir": 283
+    "WindDir": 279
    },
    "noaa": null,
    "uwyo": null
@@ -72,9 +118,9 @@
    "ims": {
     "Time": "2023-11-08T22:00:00Z",
     "Temp": 18.4,
-    "RelHum": 79,
-    "WindSpeed": 0.9,
-    "WindDir": 149
+    "RelHum": 82,
+    "WindSpeed": 0.4,
+    "WindDir": 164
    },
    "noaa": null,
    "uwyo": null
@@ -82,10 +128,10 @@
   "zefat": {
    "ims": {
     "Time": "2023-11-08T22:00:00Z",
-    "Temp": 18.5,
-    "RelHum": 45,
-    "WindSpeed": 0.4,
-    "WindDir": 105
+    "Temp": 17.8,
+    "RelHum": 51,
+    "WindSpeed": 0.2,
+    "WindDir": 112
    },
    "noaa": null,
    "uwyo": null
@@ -95,10 +141,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2023-11-08T23:00:00Z",
-    "Temp": 19,
-    "RelHum": 92,
+    "Temp": 19.2,
+    "RelHum": 91,
     "WindSpeed": 2,
-    "WindDir": 333
+    "WindDir": 328
    },
    "noaa": null,
    "uwyo": null
@@ -106,10 +152,10 @@
   "megido": {
    "ims": {
     "Time": "2023-11-08T23:00:00Z",
-    "Temp": 16.7,
-    "RelHum": 98,
-    "WindSpeed": 0.9,
-    "WindDir": 293
+    "Temp": 16.9,
+    "RelHum": 99,
+    "WindSpeed": 1,
+    "WindDir": 284
    },
    "noaa": null,
    "uwyo": null
@@ -117,10 +163,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2023-11-08T23:00:00Z",
-    "Temp": 18.1,
-    "RelHum": 79,
-    "WindSpeed": 1.1,
-    "WindDir": 139
+    "Temp": 17.8,
+    "RelHum": 82,
+    "WindSpeed": 0.8,
+    "WindDir": 151
    },
    "noaa": null,
    "uwyo": null
@@ -128,10 +174,10 @@
   "zefat": {
    "ims": {
     "Time": "2023-11-08T23:00:00Z",
-    "Temp": 18.6,
-    "RelHum": 45,
-    "WindSpeed": 0.5,
-    "WindDir": 96
+    "Temp": 17.7,
+    "RelHum": 50,
+    "WindSpeed": 0.3,
+    "WindDir": 110
    },
    "noaa": null,
    "uwyo": null
