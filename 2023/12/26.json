@@ -3,10 +3,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2023-12-26T00:00:00Z",
-    "Temp": 12.3,
-    "RelHum": 81,
-    "WindSpeed": 2.4,
-    "WindDir": 20
+    "Temp": 11.9,
+    "RelHum": 83,
+    "WindSpeed": 1.7,
+    "WindDir": 14
    },
    "noaa": null,
    "uwyo": null
@@ -14,10 +14,10 @@
   "megido": {
    "ims": {
     "Time": "2023-12-26T00:00:00Z",
-    "Temp": 11.6,
-    "RelHum": 82,
-    "WindSpeed": 2.4,
-    "WindDir": 73
+    "Temp": 10.6,
+    "RelHum": 87,
+    "WindSpeed": 2.2,
+    "WindDir": 70
    },
    "noaa": null,
    "uwyo": null
@@ -26,7 +26,53 @@
    "ims": {
     "Time": "2023-12-26T00:00:00Z",
     "Temp": 14.8,
-    "RelHum": 64,
+    "RelHum": 60,
+    "WindSpeed": 2.8,
+    "WindDir": 88
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "zefat": {
+   "ims": {
+    "Time": "2023-12-26T00:00:00Z",
+    "Temp": 11.5,
+    "RelHum": 50,
+    "WindSpeed": 3.4,
+    "WindDir": 103
+   },
+   "noaa": null,
+   "uwyo": null
+  }
+ },
+ "1": {
+  "bet-shaan": {
+   "ims": {
+    "Time": "2023-12-26T01:00:00Z",
+    "Temp": 11.4,
+    "RelHum": 84,
+    "WindSpeed": 1.7,
+    "WindDir": 12
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "megido": {
+   "ims": {
+    "Time": "2023-12-26T01:00:00Z",
+    "Temp": 9.7,
+    "RelHum": 89,
+    "WindSpeed": 2.3,
+    "WindDir": 72
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "sde-teiman": {
+   "ims": {
+    "Time": "2023-12-26T01:00:00Z",
+    "Temp": 14.6,
+    "RelHum": 60,
     "WindSpeed": 3.1,
     "WindDir": 89
    },
@@ -35,11 +81,11 @@
   },
   "zefat": {
    "ims": {
-    "Time": "2023-12-26T00:00:00Z",
-    "Temp": 11.9,
-    "RelHum": 55,
-    "WindSpeed": 3,
-    "WindDir": 106
+    "Time": "2023-12-26T01:00:00Z",
+    "Temp": 11.4,
+    "RelHum": 51,
+    "WindSpeed": 4,
+    "WindDir": 105
    },
    "noaa": null,
    "uwyo": null
@@ -49,10 +95,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2023-12-25T22:00:00Z",
-    "Temp": 13.7,
-    "RelHum": 77,
-    "WindSpeed": 2.2,
-    "WindDir": 21
+    "Temp": 13.6,
+    "RelHum": 79,
+    "WindSpeed": 2.1,
+    "WindDir": 26
    },
    "noaa": null,
    "uwyo": null
@@ -60,10 +106,10 @@
   "megido": {
    "ims": {
     "Time": "2023-12-25T22:00:00Z",
-    "Temp": 11.9,
-    "RelHum": 82,
-    "WindSpeed": 2.3,
-    "WindDir": 69
+    "Temp": 11.4,
+    "RelHum": 87,
+    "WindSpeed": 2.1,
+    "WindDir": 63
    },
    "noaa": null,
    "uwyo": null
@@ -71,10 +117,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2023-12-25T22:00:00Z",
-    "Temp": 15.2,
-    "RelHum": 62,
-    "WindSpeed": 2.3,
-    "WindDir": 86
+    "Temp": 15.1,
+    "RelHum": 59,
+    "WindSpeed": 2.4,
+    "WindDir": 85
    },
    "noaa": null,
    "uwyo": null
@@ -82,10 +128,10 @@
   "zefat": {
    "ims": {
     "Time": "2023-12-25T22:00:00Z",
-    "Temp": 12.2,
-    "RelHum": 47,
+    "Temp": 11.9,
+    "RelHum": 44,
     "WindSpeed": 2.4,
-    "WindDir": 101
+    "WindDir": 99
    },
    "noaa": null,
    "uwyo": null
@@ -95,10 +141,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2023-12-25T23:00:00Z",
-    "Temp": 12.9,
-    "RelHum": 79,
-    "WindSpeed": 2.3,
-    "WindDir": 21
+    "Temp": 12.5,
+    "RelHum": 81,
+    "WindSpeed": 1.7,
+    "WindDir": 19
    },
    "noaa": null,
    "uwyo": null
@@ -106,10 +152,10 @@
   "megido": {
    "ims": {
     "Time": "2023-12-25T23:00:00Z",
-    "Temp": 11.8,
-    "RelHum": 82,
-    "WindSpeed": 2.3,
-    "WindDir": 70
+    "Temp": 11,
+    "RelHum": 87,
+    "WindSpeed": 2.1,
+    "WindDir": 68
    },
    "noaa": null,
    "uwyo": null
@@ -118,9 +164,9 @@
    "ims": {
     "Time": "2023-12-25T23:00:00Z",
     "Temp": 15,
-    "RelHum": 63,
+    "RelHum": 59,
     "WindSpeed": 2.7,
-    "WindDir": 88
+    "WindDir": 83
    },
    "noaa": null,
    "uwyo": null
@@ -128,10 +174,10 @@
   "zefat": {
    "ims": {
     "Time": "2023-12-25T23:00:00Z",
-    "Temp": 12,
-    "RelHum": 51,
-    "WindSpeed": 2.6,
-    "WindDir": 106
+    "Temp": 11.8,
+    "RelHum": 46,
+    "WindSpeed": 2.7,
+    "WindDir": 101
    },
    "noaa": null,
    "uwyo": null
