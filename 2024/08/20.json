@@ -2101,10 +2101,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2024-08-20T10:00:00Z",
-    "Temp": 37.9,
-    "RelHum": 29,
-    "WindSpeed": 0.8,
-    "WindDir": 318
+    "Temp": 37.8,
+    "RelHum": 30,
+    "WindSpeed": 0.3,
+    "WindDir": 30
    },
    "noaa": {
     "Time": "2024-08-20T10:00:00Z",
@@ -2312,9 +2312,9 @@
   "megido": {
    "ims": {
     "Time": "2024-08-20T10:00:00Z",
-    "Temp": 35.6,
+    "Temp": 35.7,
     "RelHum": 36,
-    "WindSpeed": 2.8,
+    "WindSpeed": 2.9,
     "WindDir": 265
    },
    "noaa": {
@@ -2523,10 +2523,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2024-08-20T10:00:00Z",
-    "Temp": 33.3,
+    "Temp": 33.4,
     "RelHum": 41,
-    "WindSpeed": 2.3,
-    "WindDir": 266
+    "WindSpeed": 2.1,
+    "WindDir": 248
    },
    "noaa": {
     "Time": "2024-08-20T10:00:00Z",
@@ -2734,10 +2734,10 @@
   "zefat": {
    "ims": {
     "Time": "2024-08-20T10:00:00Z",
-    "Temp": 26.9,
-    "RelHum": 37,
-    "WindSpeed": 2.3,
-    "WindDir": 234
+    "Temp": 26.4,
+    "RelHum": 57,
+    "WindSpeed": 2.4,
+    "WindDir": 244
    },
    "noaa": {
     "Time": "2024-08-20T10:00:00Z",
@@ -2948,9 +2948,9 @@
    "ims": {
     "Time": "2024-08-20T11:00:00Z",
     "Temp": 39,
-    "RelHum": 27,
-    "WindSpeed": 2.1,
-    "WindDir": 292
+    "RelHum": 28,
+    "WindSpeed": 1.6,
+    "WindDir": 294
    },
    "noaa": {
     "Time": "2024-08-20T11:00:00Z",
@@ -3158,10 +3158,10 @@
   "megido": {
    "ims": {
     "Time": "2024-08-20T11:00:00Z",
-    "Temp": 35.7,
+    "Temp": 35.8,
     "RelHum": 36,
-    "WindSpeed": 3.2,
-    "WindDir": 271
+    "WindSpeed": 3.3,
+    "WindDir": 270
    },
    "noaa": {
     "Time": "2024-08-20T11:00:00Z",
@@ -3369,10 +3369,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2024-08-20T11:00:00Z",
-    "Temp": 34.7,
+    "Temp": 34.8,
     "RelHum": 35,
-    "WindSpeed": 3.1,
-    "WindDir": 273
+    "WindSpeed": 2.9,
+    "WindDir": 265
    },
    "noaa": {
     "Time": "2024-08-20T11:00:00Z",
@@ -3580,10 +3580,10 @@
   "zefat": {
    "ims": {
     "Time": "2024-08-20T11:00:00Z",
-    "Temp": 27.5,
-    "RelHum": 40,
+    "Temp": 27.1,
+    "RelHum": 52,
     "WindSpeed": 3,
-    "WindDir": 257
+    "WindDir": 261
    },
    "noaa": {
     "Time": "2024-08-20T11:00:00Z",
@@ -4004,8 +4004,8 @@
   "megido": {
    "ims": {
     "Time": "2024-08-20T12:00:00Z",
-    "Temp": 35.4,
-    "RelHum": 36,
+    "Temp": 35.5,
+    "RelHum": 35,
     "WindSpeed": 3.3,
     "WindDir": 274
    },
@@ -4215,8 +4215,8 @@
   "sde-teiman": {
    "ims": {
     "Time": "2024-08-20T12:00:00Z",
-    "Temp": 35.4,
-    "RelHum": 33,
+    "Temp": 35.5,
+    "RelHum": 32,
     "WindSpeed": 4.1,
     "WindDir": 286
    },
@@ -4426,8 +4426,8 @@
   "zefat": {
    "ims": {
     "Time": "2024-08-20T12:00:00Z",
-    "Temp": 27.5,
-    "RelHum": 42,
+    "Temp": 27.3,
+    "RelHum": 49,
     "WindSpeed": 3.9,
     "WindDir": 283
    },
@@ -5062,7 +5062,7 @@
    "ims": {
     "Time": "2024-08-20T13:00:00Z",
     "Temp": 34.7,
-    "RelHum": 35,
+    "RelHum": 34,
     "WindSpeed": 4.8,
     "WindDir": 303
    },
@@ -5272,8 +5272,8 @@
   "zefat": {
    "ims": {
     "Time": "2024-08-20T13:00:00Z",
-    "Temp": 27.2,
-    "RelHum": 44,
+    "Temp": 27.1,
+    "RelHum": 47,
     "WindSpeed": 4.3,
     "WindDir": 297
    },
@@ -6118,8 +6118,8 @@
   "zefat": {
    "ims": {
     "Time": "2024-08-20T14:00:00Z",
-    "Temp": 26.9,
-    "RelHum": 43,
+    "Temp": 26.8,
+    "RelHum": 44,
     "WindSpeed": 4.3,
     "WindDir": 310
    },
@@ -7811,7 +7811,7 @@
    "ims": {
     "Time": "2024-08-20T16:00:00Z",
     "Temp": 25.5,
-    "RelHum": 40,
+    "RelHum": 41,
     "WindSpeed": 3.1,
     "WindDir": 338
    },
@@ -17329,10 +17329,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2024-08-20T06:00:00Z",
-    "Temp": 30.1,
-    "RelHum": 61,
-    "WindSpeed": 0.8,
-    "WindDir": 27
+    "Temp": 29.8,
+    "RelHum": 65,
+    "WindSpeed": 1.4,
+    "WindDir": 77
    },
    "noaa": {
     "Time": "2024-08-20T06:00:00Z",
@@ -17541,9 +17541,9 @@
    "ims": {
     "Time": "2024-08-20T06:00:00Z",
     "Temp": 28.9,
-    "RelHum": 66,
-    "WindSpeed": 1.2,
-    "WindDir": 268
+    "RelHum": 67,
+    "WindSpeed": 2.6,
+    "WindDir": 266
    },
    "noaa": {
     "Time": "2024-08-20T06:00:00Z",
@@ -17751,10 +17751,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2024-08-20T06:00:00Z",
-    "Temp": 26.5,
-    "RelHum": 77,
-    "WindSpeed": 0.9,
-    "WindDir": 281
+    "Temp": 26.6,
+    "RelHum": 75,
+    "WindSpeed": 1,
+    "WindDir": 209
    },
    "noaa": {
     "Time": "2024-08-20T06:00:00Z",
@@ -17962,10 +17962,10 @@
   "zefat": {
    "ims": {
     "Time": "2024-08-20T06:00:00Z",
-    "Temp": 24,
-    "RelHum": 28,
-    "WindSpeed": 1.5,
-    "WindDir": 283
+    "Temp": 23.5,
+    "RelHum": 54,
+    "WindSpeed": 2.5,
+    "WindDir": 289
    },
    "noaa": {
     "Time": "2024-08-20T06:00:00Z",
@@ -18175,10 +18175,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2024-08-20T07:00:00Z",
-    "Temp": 32.1,
-    "RelHum": 50,
-    "WindSpeed": 0.8,
-    "WindDir": 34
+    "Temp": 31.8,
+    "RelHum": 54,
+    "WindSpeed": 1.7,
+    "WindDir": 84
    },
    "noaa": {
     "Time": "2024-08-20T07:00:00Z",
@@ -18387,8 +18387,8 @@
    "ims": {
     "Time": "2024-08-20T07:00:00Z",
     "Temp": 31.1,
-    "RelHum": 54,
-    "WindSpeed": 1.3,
+    "RelHum": 55,
+    "WindSpeed": 2.6,
     "WindDir": 264
    },
    "noaa": {
@@ -18597,10 +18597,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2024-08-20T07:00:00Z",
-    "Temp": 28,
-    "RelHum": 67,
-    "WindSpeed": 0.9,
-    "WindDir": 263
+    "Temp": 28.1,
+    "RelHum": 66,
+    "WindSpeed": 1,
+    "WindDir": 223
    },
    "noaa": {
     "Time": "2024-08-20T07:00:00Z",
@@ -18808,10 +18808,10 @@
   "zefat": {
    "ims": {
     "Time": "2024-08-20T07:00:00Z",
-    "Temp": 24.7,
-    "RelHum": 28,
-    "WindSpeed": 1.4,
-    "WindDir": 270
+    "Temp": 24.3,
+    "RelHum": 54,
+    "WindSpeed": 2.2,
+    "WindDir": 276
    },
    "noaa": {
     "Time": "2024-08-20T07:00:00Z",
@@ -19021,10 +19021,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2024-08-20T08:00:00Z",
-    "Temp": 34.2,
-    "RelHum": 40,
-    "WindSpeed": 0.7,
-    "WindDir": 36
+    "Temp": 33.9,
+    "RelHum": 43,
+    "WindSpeed": 1.7,
+    "WindDir": 91
    },
    "noaa": {
     "Time": "2024-08-20T08:00:00Z",
@@ -19234,8 +19234,8 @@
     "Time": "2024-08-20T08:00:00Z",
     "Temp": 33,
     "RelHum": 44,
-    "WindSpeed": 1.8,
-    "WindDir": 260
+    "WindSpeed": 2.6,
+    "WindDir": 262
    },
    "noaa": {
     "Time": "2024-08-20T08:00:00Z",
@@ -19443,10 +19443,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2024-08-20T08:00:00Z",
-    "Temp": 29.8,
-    "RelHum": 58,
-    "WindSpeed": 1.2,
-    "WindDir": 252
+    "Temp": 29.9,
+    "RelHum": 57,
+    "WindSpeed": 1.6,
+    "WindDir": 203
    },
    "noaa": {
     "Time": "2024-08-20T08:00:00Z",
@@ -19654,10 +19654,10 @@
   "zefat": {
    "ims": {
     "Time": "2024-08-20T08:00:00Z",
-    "Temp": 25,
-    "RelHum": 32,
-    "WindSpeed": 1.4,
-    "WindDir": 254
+    "Temp": 24.6,
+    "RelHum": 59,
+    "WindSpeed": 2.2,
+    "WindDir": 269
    },
    "noaa": {
     "Time": "2024-08-20T08:00:00Z",
@@ -19867,10 +19867,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2024-08-20T09:00:00Z",
-    "Temp": 36.2,
-    "RelHum": 33,
-    "WindSpeed": 0.6,
-    "WindDir": 5
+    "Temp": 36,
+    "RelHum": 35,
+    "WindSpeed": 1,
+    "WindDir": 82
    },
    "noaa": {
     "Time": "2024-08-20T09:00:00Z",
@@ -20078,10 +20078,10 @@
   "megido": {
    "ims": {
     "Time": "2024-08-20T09:00:00Z",
-    "Temp": 34.7,
+    "Temp": 34.8,
     "RelHum": 38,
-    "WindSpeed": 2.3,
-    "WindDir": 260
+    "WindSpeed": 2.6,
+    "WindDir": 262
    },
    "noaa": {
     "Time": "2024-08-20T09:00:00Z",
@@ -20289,10 +20289,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2024-08-20T09:00:00Z",
-    "Temp": 31.6,
-    "RelHum": 49,
+    "Temp": 31.8,
+    "RelHum": 48,
     "WindSpeed": 1.8,
-    "WindDir": 261
+    "WindDir": 228
    },
    "noaa": {
     "Time": "2024-08-20T09:00:00Z",
@@ -20500,10 +20500,10 @@
   "zefat": {
    "ims": {
     "Time": "2024-08-20T09:00:00Z",
-    "Temp": 26,
-    "RelHum": 34,
-    "WindSpeed": 1.7,
-    "WindDir": 235
+    "Temp": 25.4,
+    "RelHum": 60,
+    "WindSpeed": 2,
+    "WindDir": 251
    },
    "noaa": {
     "Time": "2024-08-20T09:00:00Z",
