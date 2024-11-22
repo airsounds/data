@@ -458,5 +458,51 @@
    "noaa": null,
    "uwyo": null
   }
+ },
+ "8": {
+  "bet-shaan": {
+   "ims": {
+    "Time": "2024-11-25T08:00:00Z",
+    "Temp": 17,
+    "RelHum": 46,
+    "WindSpeed": 5.7,
+    "WindDir": 297
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "megido": {
+   "ims": {
+    "Time": "2024-11-25T08:00:00Z",
+    "Temp": 12.9,
+    "RelHum": 65,
+    "WindSpeed": 4.7,
+    "WindDir": 314
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "sde-teiman": {
+   "ims": {
+    "Time": "2024-11-25T08:00:00Z",
+    "Temp": 15.1,
+    "RelHum": 51,
+    "WindSpeed": 4.4,
+    "WindDir": 309
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "zefat": {
+   "ims": {
+    "Time": "2024-11-25T08:00:00Z",
+    "Temp": 5.5,
+    "RelHum": 67,
+    "WindSpeed": 6.3,
+    "WindDir": 334
+   },
+   "noaa": null,
+   "uwyo": null
+  }
  }
 }
