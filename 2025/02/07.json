@@ -3,10 +3,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-02-07T00:00:00Z",
-    "Temp": 11.4,
-    "RelHum": 60,
-    "WindSpeed": 2,
-    "WindDir": 169
+    "Temp": 10.5,
+    "RelHum": 62,
+    "WindSpeed": 2.2,
+    "WindDir": 181
    },
    "noaa": null,
    "uwyo": null
@@ -14,10 +14,10 @@
   "megido": {
    "ims": {
     "Time": "2025-02-07T00:00:00Z",
-    "Temp": 8.1,
-    "RelHum": 71,
-    "WindSpeed": 0.9,
-    "WindDir": 295
+    "Temp": 9.6,
+    "RelHum": 62,
+    "WindSpeed": 1.5,
+    "WindDir": 316
    },
    "noaa": null,
    "uwyo": null
@@ -25,10 +25,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2025-02-07T00:00:00Z",
-    "Temp": 9.5,
-    "RelHum": 71,
+    "Temp": 9.4,
+    "RelHum": 70,
     "WindSpeed": 2.7,
-    "WindDir": 274
+    "WindDir": 275
    },
    "noaa": null,
    "uwyo": null
@@ -36,10 +36,56 @@
   "zefat": {
    "ims": {
     "Time": "2025-02-07T00:00:00Z",
-    "Temp": 2.8,
-    "RelHum": 73,
-    "WindSpeed": 3.4,
-    "WindDir": 313
+    "Temp": 2.7,
+    "RelHum": 75,
+    "WindSpeed": 4.2,
+    "WindDir": 306
+   },
+   "noaa": null,
+   "uwyo": null
+  }
+ },
+ "1": {
+  "bet-shaan": {
+   "ims": {
+    "Time": "2025-02-07T01:00:00Z",
+    "Temp": 10.4,
+    "RelHum": 64,
+    "WindSpeed": 1.4,
+    "WindDir": 192
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "megido": {
+   "ims": {
+    "Time": "2025-02-07T01:00:00Z",
+    "Temp": 9.5,
+    "RelHum": 60,
+    "WindSpeed": 1.6,
+    "WindDir": 327
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "sde-teiman": {
+   "ims": {
+    "Time": "2025-02-07T01:00:00Z",
+    "Temp": 9.4,
+    "RelHum": 70,
+    "WindSpeed": 2.3,
+    "WindDir": 262
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "zefat": {
+   "ims": {
+    "Time": "2025-02-07T01:00:00Z",
+    "Temp": 2.6,
+    "RelHum": 71,
+    "WindSpeed": 4.4,
+    "WindDir": 316
    },
    "noaa": null,
    "uwyo": null
@@ -49,10 +95,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-02-06T22:00:00Z",
-    "Temp": 12.4,
-    "RelHum": 54,
-    "WindSpeed": 1.6,
-    "WindDir": 166
+    "Temp": 10.9,
+    "RelHum": 57,
+    "WindSpeed": 2.9,
+    "WindDir": 173
    },
    "noaa": null,
    "uwyo": null
@@ -60,10 +106,10 @@
   "megido": {
    "ims": {
     "Time": "2025-02-06T22:00:00Z",
-    "Temp": 7.3,
-    "RelHum": 77,
-    "WindSpeed": 0.6,
-    "WindDir": 314
+    "Temp": 9.8,
+    "RelHum": 64,
+    "WindSpeed": 1.1,
+    "WindDir": 271
    },
    "noaa": null,
    "uwyo": null
@@ -71,10 +117,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2025-02-06T22:00:00Z",
-    "Temp": 10.3,
-    "RelHum": 63,
+    "Temp": 9.6,
+    "RelHum": 65,
     "WindSpeed": 3,
-    "WindDir": 289
+    "WindDir": 286
    },
    "noaa": null,
    "uwyo": null
@@ -82,10 +128,10 @@
   "zefat": {
    "ims": {
     "Time": "2025-02-06T22:00:00Z",
-    "Temp": 2.9,
-    "RelHum": 73,
-    "WindSpeed": 2.8,
-    "WindDir": 316
+    "Temp": 3,
+    "RelHum": 72,
+    "WindSpeed": 2.2,
+    "WindDir": 296
    },
    "noaa": null,
    "uwyo": null
@@ -95,10 +141,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-02-06T23:00:00Z",
-    "Temp": 11.8,
-    "RelHum": 57,
-    "WindSpeed": 1.9,
-    "WindDir": 169
+    "Temp": 10.5,
+    "RelHum": 60,
+    "WindSpeed": 2.8,
+    "WindDir": 178
    },
    "noaa": null,
    "uwyo": null
@@ -106,10 +152,10 @@
   "megido": {
    "ims": {
     "Time": "2025-02-06T23:00:00Z",
-    "Temp": 7.9,
-    "RelHum": 74,
-    "WindSpeed": 0.6,
-    "WindDir": 300
+    "Temp": 9.6,
+    "RelHum": 63,
+    "WindSpeed": 1.2,
+    "WindDir": 298
    },
    "noaa": null,
    "uwyo": null
@@ -117,10 +163,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2025-02-06T23:00:00Z",
-    "Temp": 9.9,
+    "Temp": 9.3,
     "RelHum": 68,
     "WindSpeed": 2.8,
-    "WindDir": 276
+    "WindDir": 280
    },
    "noaa": null,
    "uwyo": null
@@ -130,8 +176,8 @@
     "Time": "2025-02-06T23:00:00Z",
     "Temp": 2.9,
     "RelHum": 72,
-    "WindSpeed": 3.2,
-    "WindDir": 311
+    "WindSpeed": 3.3,
+    "WindDir": 296
    },
    "noaa": null,
    "uwyo": null
