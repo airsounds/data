@@ -3,8 +3,8 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-02-09T00:00:00Z",
-    "Temp": 7.8,
-    "RelHum": 84,
+    "Temp": 8.3,
+    "RelHum": 82,
     "WindSpeed": 0.6,
     "WindDir": 262
    },
@@ -14,8 +14,8 @@
   "megido": {
    "ims": {
     "Time": "2025-02-09T00:00:00Z",
-    "Temp": 7.7,
-    "RelHum": 84,
+    "Temp": 6.6,
+    "RelHum": 91,
     "WindSpeed": 0.7,
     "WindDir": 303
    },
@@ -25,8 +25,8 @@
   "sde-teiman": {
    "ims": {
     "Time": "2025-02-09T00:00:00Z",
-    "Temp": 5.5,
-    "RelHum": 83,
+    "Temp": 6.8,
+    "RelHum": 76,
     "WindSpeed": 1.6,
     "WindDir": 91
    },
@@ -36,8 +36,8 @@
   "zefat": {
    "ims": {
     "Time": "2025-02-09T00:00:00Z",
-    "Temp": 4.2,
-    "RelHum": 73,
+    "Temp": 4.6,
+    "RelHum": 71,
     "WindSpeed": 1.7,
     "WindDir": 348
    },
@@ -49,8 +49,8 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-02-09T01:00:00Z",
-    "Temp": 7.7,
-    "RelHum": 84,
+    "Temp": 8,
+    "RelHum": 82,
     "WindSpeed": 0.7,
     "WindDir": 287
    },
@@ -60,8 +60,8 @@
   "megido": {
    "ims": {
     "Time": "2025-02-09T01:00:00Z",
-    "Temp": 7.3,
-    "RelHum": 86,
+    "Temp": 6.2,
+    "RelHum": 93,
     "WindSpeed": 0.3,
     "WindDir": 321
    },
@@ -71,8 +71,8 @@
   "sde-teiman": {
    "ims": {
     "Time": "2025-02-09T01:00:00Z",
-    "Temp": 5.2,
-    "RelHum": 82,
+    "Temp": 6.5,
+    "RelHum": 75,
     "WindSpeed": 1.7,
     "WindDir": 97
    },
@@ -82,10 +82,56 @@
   "zefat": {
    "ims": {
     "Time": "2025-02-09T01:00:00Z",
-    "Temp": 3.9,
-    "RelHum": 74,
+    "Temp": 4.4,
+    "RelHum": 72,
     "WindSpeed": 0.8,
     "WindDir": 322
+   },
+   "noaa": null,
+   "uwyo": null
+  }
+ },
+ "2": {
+  "bet-shaan": {
+   "ims": {
+    "Time": "2025-02-09T02:00:00Z",
+    "Temp": 7.8,
+    "RelHum": 83,
+    "WindSpeed": 0.8,
+    "WindDir": 338
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "megido": {
+   "ims": {
+    "Time": "2025-02-09T02:00:00Z",
+    "Temp": 6.1,
+    "RelHum": 94,
+    "WindSpeed": 0.1,
+    "WindDir": 351
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "sde-teiman": {
+   "ims": {
+    "Time": "2025-02-09T02:00:00Z",
+    "Temp": 6.4,
+    "RelHum": 76,
+    "WindSpeed": 1.6,
+    "WindDir": 108
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "zefat": {
+   "ims": {
+    "Time": "2025-02-09T02:00:00Z",
+    "Temp": 3.9,
+    "RelHum": 75,
+    "WindSpeed": 0.9,
+    "WindDir": 213
    },
    "noaa": null,
    "uwyo": null
@@ -95,8 +141,8 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-02-08T22:00:00Z",
-    "Temp": 8.2,
-    "RelHum": 84,
+    "Temp": 8.9,
+    "RelHum": 80,
     "WindSpeed": 1.1,
     "WindDir": 294
    },
@@ -106,8 +152,8 @@
   "megido": {
    "ims": {
     "Time": "2025-02-08T22:00:00Z",
-    "Temp": 9,
-    "RelHum": 78,
+    "Temp": 7.9,
+    "RelHum": 84,
     "WindSpeed": 1.2,
     "WindDir": 292
    },
@@ -117,8 +163,8 @@
   "sde-teiman": {
    "ims": {
     "Time": "2025-02-08T22:00:00Z",
-    "Temp": 6.5,
-    "RelHum": 83,
+    "Temp": 7.5,
+    "RelHum": 78,
     "WindSpeed": 1.3,
     "WindDir": 88
    },
@@ -128,8 +174,8 @@
   "zefat": {
    "ims": {
     "Time": "2025-02-08T22:00:00Z",
-    "Temp": 4.2,
-    "RelHum": 75,
+    "Temp": 4.6,
+    "RelHum": 73,
     "WindSpeed": 2,
     "WindDir": 331
    },
@@ -141,8 +187,8 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-02-08T23:00:00Z",
-    "Temp": 8,
-    "RelHum": 85,
+    "Temp": 8.5,
+    "RelHum": 81,
     "WindSpeed": 0.7,
     "WindDir": 286
    },
@@ -152,8 +198,8 @@
   "megido": {
    "ims": {
     "Time": "2025-02-08T23:00:00Z",
-    "Temp": 8.4,
-    "RelHum": 80,
+    "Temp": 7.3,
+    "RelHum": 87,
     "WindSpeed": 1.1,
     "WindDir": 289
    },
@@ -163,8 +209,8 @@
   "sde-teiman": {
    "ims": {
     "Time": "2025-02-08T23:00:00Z",
-    "Temp": 5.9,
-    "RelHum": 84,
+    "Temp": 7.2,
+    "RelHum": 77,
     "WindSpeed": 1.5,
     "WindDir": 92
    },
@@ -174,8 +220,8 @@
   "zefat": {
    "ims": {
     "Time": "2025-02-08T23:00:00Z",
-    "Temp": 4.2,
-    "RelHum": 74,
+    "Temp": 4.7,
+    "RelHum": 72,
     "WindSpeed": 2.1,
     "WindDir": 348
    },
