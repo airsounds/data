@@ -3,8 +3,8 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-03-07T00:00:00Z",
-    "Temp": 16.6,
-    "RelHum": 58,
+    "Temp": 16.4,
+    "RelHum": 60,
     "WindSpeed": 5.9,
     "WindDir": 33
    },
@@ -25,7 +25,7 @@
   "sde-teiman": {
    "ims": {
     "Time": "2025-03-07T00:00:00Z",
-    "Temp": 13.1,
+    "Temp": 13,
     "RelHum": 73,
     "WindSpeed": 0.6,
     "WindDir": 0
@@ -36,7 +36,7 @@
   "zefat": {
    "ims": {
     "Time": "2025-03-07T00:00:00Z",
-    "Temp": 9.8,
+    "Temp": 9.5,
     "RelHum": 63,
     "WindSpeed": 7.1,
     "WindDir": 48
@@ -49,8 +49,8 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-03-07T01:00:00Z",
-    "Temp": 16.7,
-    "RelHum": 57,
+    "Temp": 16.5,
+    "RelHum": 58,
     "WindSpeed": 5.2,
     "WindDir": 26
    },
@@ -71,7 +71,7 @@
   "sde-teiman": {
    "ims": {
     "Time": "2025-03-07T01:00:00Z",
-    "Temp": 12.2,
+    "Temp": 12.1,
     "RelHum": 83,
     "WindSpeed": 0.2,
     "WindDir": 123
@@ -82,7 +82,7 @@
   "zefat": {
    "ims": {
     "Time": "2025-03-07T01:00:00Z",
-    "Temp": 9.4,
+    "Temp": 9.3,
     "RelHum": 64,
     "WindSpeed": 6.7,
     "WindDir": 46
@@ -555,8 +555,8 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-03-07T02:00:00Z",
-    "Temp": 16.4,
-    "RelHum": 58,
+    "Temp": 16.3,
+    "RelHum": 59,
     "WindSpeed": 4.5,
     "WindDir": 20
    },
@@ -577,7 +577,7 @@
   "sde-teiman": {
    "ims": {
     "Time": "2025-03-07T02:00:00Z",
-    "Temp": 12.1,
+    "Temp": 12,
     "RelHum": 85,
     "WindSpeed": 1,
     "WindDir": 253
@@ -693,10 +693,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-03-06T22:00:00Z",
-    "Temp": 16,
-    "RelHum": 63,
-    "WindSpeed": 4.5,
-    "WindDir": 22
+    "Temp": 15.8,
+    "RelHum": 65,
+    "WindSpeed": 4.4,
+    "WindDir": 18
    },
    "noaa": null,
    "uwyo": null
@@ -704,10 +704,10 @@
   "megido": {
    "ims": {
     "Time": "2025-03-06T22:00:00Z",
-    "Temp": 13.7,
+    "Temp": 13.8,
     "RelHum": 67,
-    "WindSpeed": 2.1,
-    "WindDir": 65
+    "WindSpeed": 1.9,
+    "WindDir": 64
    },
    "noaa": null,
    "uwyo": null
@@ -716,9 +716,9 @@
    "ims": {
     "Time": "2025-03-06T22:00:00Z",
     "Temp": 14.2,
-    "RelHum": 61,
-    "WindSpeed": 1.8,
-    "WindDir": 84
+    "RelHum": 60,
+    "WindSpeed": 2.4,
+    "WindDir": 92
    },
    "noaa": null,
    "uwyo": null
@@ -726,10 +726,10 @@
   "zefat": {
    "ims": {
     "Time": "2025-03-06T22:00:00Z",
-    "Temp": 10,
-    "RelHum": 70,
+    "Temp": 9.5,
+    "RelHum": 68,
     "WindSpeed": 6.9,
-    "WindDir": 46
+    "WindDir": 56
    },
    "noaa": null,
    "uwyo": null
@@ -739,10 +739,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-03-06T23:00:00Z",
-    "Temp": 16.4,
-    "RelHum": 61,
-    "WindSpeed": 6.2,
-    "WindDir": 30
+    "Temp": 16.1,
+    "RelHum": 63,
+    "WindSpeed": 5.5,
+    "WindDir": 26
    },
    "noaa": null,
    "uwyo": null
@@ -751,9 +751,9 @@
    "ims": {
     "Time": "2025-03-06T23:00:00Z",
     "Temp": 13.4,
-    "RelHum": 67,
-    "WindSpeed": 2.3,
-    "WindDir": 74
+    "RelHum": 68,
+    "WindSpeed": 2.1,
+    "WindDir": 73
    },
    "noaa": null,
    "uwyo": null
@@ -761,10 +761,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2025-03-06T23:00:00Z",
-    "Temp": 13.4,
-    "RelHum": 69,
-    "WindSpeed": 0.8,
-    "WindDir": 64
+    "Temp": 13.3,
+    "RelHum": 68,
+    "WindSpeed": 1.2,
+    "WindDir": 80
    },
    "noaa": null,
    "uwyo": null
@@ -772,10 +772,10 @@
   "zefat": {
    "ims": {
     "Time": "2025-03-06T23:00:00Z",
-    "Temp": 9.8,
+    "Temp": 9.4,
     "RelHum": 67,
-    "WindSpeed": 7,
-    "WindDir": 54
+    "WindSpeed": 6.8,
+    "WindDir": 59
    },
    "noaa": null,
    "uwyo": null
@@ -785,8 +785,8 @@
   "bet-shaan": {
    "ims": {
     "Time": "2025-03-07T03:00:00Z",
-    "Temp": 15.5,
-    "RelHum": 67,
+    "Temp": 15.4,
+    "RelHum": 68,
     "WindSpeed": 3.9,
     "WindDir": 25
    },
@@ -818,7 +818,7 @@
   "zefat": {
    "ims": {
     "Time": "2025-03-07T03:00:00Z",
-    "Temp": 9.9,
+    "Temp": 9.8,
     "RelHum": 59,
     "WindSpeed": 6.6,
     "WindDir": 48
