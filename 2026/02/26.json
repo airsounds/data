@@ -3,10 +3,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2026-02-26T00:00:00Z",
-    "Temp": 12.4,
+    "Temp": 12.3,
     "RelHum": 71,
-    "WindSpeed": 4.7,
-    "WindDir": 188
+    "WindSpeed": 5.2,
+    "WindDir": 191
    },
    "noaa": null,
    "uwyo": null
@@ -14,10 +14,10 @@
   "megido": {
    "ims": {
     "Time": "2026-02-26T00:00:00Z",
-    "Temp": 12.3,
-    "RelHum": 65,
-    "WindSpeed": 2.2,
-    "WindDir": 209
+    "Temp": 12.8,
+    "RelHum": 61,
+    "WindSpeed": 2.4,
+    "WindDir": 208
    },
    "noaa": null,
    "uwyo": null
@@ -25,10 +25,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2026-02-26T00:00:00Z",
-    "Temp": 9.8,
+    "Temp": 9.3,
     "RelHum": 72,
-    "WindSpeed": 1.8,
-    "WindDir": 167
+    "WindSpeed": 1.7,
+    "WindDir": 178
    },
    "noaa": null,
    "uwyo": null
@@ -38,8 +38,54 @@
     "Time": "2026-02-26T00:00:00Z",
     "Temp": 7.4,
     "RelHum": 90,
-    "WindSpeed": 6.4,
-    "WindDir": 220
+    "WindSpeed": 7.1,
+    "WindDir": 223
+   },
+   "noaa": null,
+   "uwyo": null
+  }
+ },
+ "1": {
+  "bet-shaan": {
+   "ims": {
+    "Time": "2026-02-26T01:00:00Z",
+    "Temp": 12.3,
+    "RelHum": 69,
+    "WindSpeed": 5.9,
+    "WindDir": 191
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "megido": {
+   "ims": {
+    "Time": "2026-02-26T01:00:00Z",
+    "Temp": 12.8,
+    "RelHum": 65,
+    "WindSpeed": 2.4,
+    "WindDir": 215
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "sde-teiman": {
+   "ims": {
+    "Time": "2026-02-26T01:00:00Z",
+    "Temp": 9.3,
+    "RelHum": 69,
+    "WindSpeed": 2,
+    "WindDir": 171
+   },
+   "noaa": null,
+   "uwyo": null
+  },
+  "zefat": {
+   "ims": {
+    "Time": "2026-02-26T01:00:00Z",
+    "Temp": 7.3,
+    "RelHum": 87,
+    "WindSpeed": 7.9,
+    "WindDir": 224
    },
    "noaa": null,
    "uwyo": null
@@ -49,10 +95,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2026-02-25T22:00:00Z",
-    "Temp": 12.7,
-    "RelHum": 75,
+    "Temp": 12.2,
+    "RelHum": 79,
     "WindSpeed": 3.3,
-    "WindDir": 188
+    "WindDir": 186
    },
    "noaa": null,
    "uwyo": null
@@ -60,10 +106,10 @@
   "megido": {
    "ims": {
     "Time": "2026-02-25T22:00:00Z",
-    "Temp": 11.6,
-    "RelHum": 73,
+    "Temp": 12.1,
+    "RelHum": 71,
     "WindSpeed": 2,
-    "WindDir": 208
+    "WindDir": 211
    },
    "noaa": null,
    "uwyo": null
@@ -71,10 +117,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2026-02-25T22:00:00Z",
-    "Temp": 10.9,
-    "RelHum": 71,
-    "WindSpeed": 1.9,
-    "WindDir": 144
+    "Temp": 10.1,
+    "RelHum": 72,
+    "WindSpeed": 1.5,
+    "WindDir": 164
    },
    "noaa": null,
    "uwyo": null
@@ -82,10 +128,10 @@
   "zefat": {
    "ims": {
     "Time": "2026-02-25T22:00:00Z",
-    "Temp": 7.7,
-    "RelHum": 82,
-    "WindSpeed": 4.8,
-    "WindDir": 222
+    "Temp": 7.6,
+    "RelHum": 85,
+    "WindSpeed": 4.6,
+    "WindDir": 225
    },
    "noaa": null,
    "uwyo": null
@@ -95,10 +141,10 @@
   "bet-shaan": {
    "ims": {
     "Time": "2026-02-25T23:00:00Z",
-    "Temp": 12.4,
-    "RelHum": 73,
+    "Temp": 12.1,
+    "RelHum": 75,
     "WindSpeed": 4.2,
-    "WindDir": 187
+    "WindDir": 192
    },
    "noaa": null,
    "uwyo": null
@@ -106,10 +152,10 @@
   "megido": {
    "ims": {
     "Time": "2026-02-25T23:00:00Z",
-    "Temp": 12,
-    "RelHum": 67,
-    "WindSpeed": 2.1,
-    "WindDir": 209
+    "Temp": 12.6,
+    "RelHum": 62,
+    "WindSpeed": 2.3,
+    "WindDir": 213
    },
    "noaa": null,
    "uwyo": null
@@ -117,10 +163,10 @@
   "sde-teiman": {
    "ims": {
     "Time": "2026-02-25T23:00:00Z",
-    "Temp": 10.3,
-    "RelHum": 72,
-    "WindSpeed": 1.9,
-    "WindDir": 151
+    "Temp": 9.8,
+    "RelHum": 71,
+    "WindSpeed": 1.8,
+    "WindDir": 173
    },
    "noaa": null,
    "uwyo": null
@@ -128,10 +174,10 @@
   "zefat": {
    "ims": {
     "Time": "2026-02-25T23:00:00Z",
-    "Temp": 7.6,
-    "RelHum": 84,
-    "WindSpeed": 5.4,
-    "WindDir": 222
+    "Temp": 7.4,
+    "RelHum": 88,
+    "WindSpeed": 5.9,
+    "WindDir": 223
    },
    "noaa": null,
    "uwyo": null
