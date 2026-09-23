@@ -1,199 +1,143 @@
 package noaa
 
 import (
-	"bufio"
+	"encoding/json"
 	"fmt"
-	"log"
+	"math"
 	"net/http"
-	"regexp"
-	"strconv"
-	"strings"
+	"net/url"
 	"time"
-
-	"github.com/posener/tmplt"
 )
 
-var url = tmplt.Text("https://rucsoundings.noaa.gov/get_soundings.cgi?data_source=GFS&start_year={{.Start.Year}}&start_month_name={{.Start.Month}}&start_mday={{.Start.Day}}&start_hour=0&start_min=0&n_hrs=1.0&fcst_len=shortest&airport={{.Lat}}%2C{{.Long}}&text=Ascii%20text%20%28GSD%20format%29&hydrometeors=false&startSecs={{.Start.Unix}}&endSecs={{.End.Unix}}")
-
-// NOAA forcast information.
+// NOAA is the sounding format consumed by the Airsounds web application.
+// Heights are feet, temperatures are degrees Celsius, and wind speeds are knots.
 type NOAA struct {
-	// Time of Forecast
-	Time time.Time
-	// Pressure in hPa
-	Pressure []int
-	// Height in feet
-	Height []int
-	// Temp in Deg C
-	Temp []int
-	// Dew point in deg C
-	Dew []int
-	// WindDir in degrees
-	WindDir []int
-	// WindSpeed in knots
+	Time      time.Time
+	Pressure  []int
+	Height    []int
+	Temp      []int
+	Dew       []int
+	WindDir   []int
 	WindSpeed []int
 }
 
-func (n *NOAA) appendFields(fields []string) error {
-	if err := appendInt(&n.Pressure, fields[1], 0.1); err != nil {
-		return err
-	}
-	if err := appendInt(&n.Height, fields[2], 3.28084 /* m to ft */); err != nil {
-		return err
-	}
-	if err := appendInt(&n.Temp, fields[3], 0.1); err != nil {
-		return err
-	}
-	if err := appendInt(&n.Dew, fields[4], 0.1); err != nil {
-		return err
-	}
-	if err := appendInt(&n.WindDir, fields[5], 1); err != nil {
-		return err
-	}
-	if err := appendInt(&n.WindSpeed, fields[6], 1); err != nil {
-		return err
-	}
-	return nil
-}
+const forecastURL = "https://api.open-meteo.com/v1/forecast"
 
+var pressureLevels = []int{1000, 925, 850, 700, 600, 500, 400, 300, 250, 200}
+
+// GetDate returns all forecast soundings for the UTC day containing date.
 func GetDate(date time.Time, lat, long float32) ([]*NOAA, error) {
-	// Set date to point on beginning of day.
-	start := date.Truncate(24 * time.Hour)
-	end := start.Add(24 * time.Hour)
-	return Get(start, end, lat, long)
+	start := date.UTC().Truncate(24 * time.Hour)
+	return Get(start, start.Add(24*time.Hour), lat, long)
 }
 
-func Get(start time.Time, end time.Time, lat, long float32) ([]*NOAA, error) {
-	// Time must be a multiple of 3 hours.
-	start = start.Truncate(3 * time.Hour)
-	end = end.Truncate(3 * time.Hour)
-
-	u, err := url.Execute(struct {
-		Start, End time.Time
-		Lat, Long  float32
-	}{
-		// NOAA expects time in UTC.
-		Start: start.UTC(),
-		End:   end.UTC(),
-		Lat:   lat,
-		Long:  long,
-	})
-	if err != nil {
-		return nil, err
+// Get fetches pressure-level GFS data from Open-Meteo. NOAA's former RUC
+// sounding endpoint was retired; this API exposes the same forecast fields
+// globally as JSON.
+func Get(start, end time.Time, lat, long float32) ([]*NOAA, error) {
+	if !end.After(start) {
+		return nil, fmt.Errorf("end must be after start")
 	}
-	log.Printf("Fetching NOAA with URL: %s", u)
-	resp, err := http.Get(u)
+	query := url.Values{
+		"latitude":        {fmt.Sprint(lat)},
+		"longitude":       {fmt.Sprint(long)},
+		"start_date":      {start.UTC().Format("2006-01-02")},
+		"end_date":        {end.Add(-time.Nanosecond).UTC().Format("2006-01-02")},
+		"timezone":        {"UTC"},
+		"wind_speed_unit": {"kn"},
+		"models":          {"gfs_seamless"},
+	}
+	for _, level := range pressureLevels {
+		for _, variable := range []string{"temperature", "dew_point", "wind_speed", "wind_direction", "geopotential_height"} {
+			query.Add("hourly", fmt.Sprintf("%s_%dhPa", variable, level))
+		}
+	}
+
+	resp, err := http.Get(forecastURL + "?" + query.Encode())
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("fetching forecast: %w", err)
 	}
 	defer resp.Body.Close()
-	if code := resp.StatusCode; code != http.StatusOK {
-		return nil, fmt.Errorf("bad status code: %d", code)
+	if resp.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("bad status code: %d", resp.StatusCode)
 	}
 
-	// Valid output is in the format
-	//
-	// 	GFS 09 h forecast valid for grid point 13.1 nm / 243 deg from 32.6,35.23:
-	// 	GFS         21      19      Jun    2020
-	// 	   CAPE    231    CIN     -7  Helic  99999     PW     27
-	// 	      1  23062  99999  32.50 -35.00  99999  99999
-	// 	      2  99999  99999  99999     35  99999  99999
-	// 	      3           32.6,35.23            12     kt
-	// 	      9  10000     77    225    181    260      9
-	// 	      4   9750    297    209    171    265     13
+	var data forecastResponse
+	if err := json.NewDecoder(resp.Body).Decode(&data); err != nil {
+		return nil, fmt.Errorf("decoding forecast: %w", err)
+	}
+	return data.soundings()
+}
 
-	var (
-		scanner = bufio.NewScanner(resp.Body)
-		ns      []*NOAA
-	)
-	for scanner.Scan() {
-		line := scanner.Text()
-		if len(strings.TrimSpace(line)) == 0 {
-			continue
-		}
-		if forecastHeader1.MatchString(line) {
-			scanner.Scan()
-			t, err := parseTimeLine(scanner.Text())
+type forecastResponse struct {
+	Hourly map[string]json.RawMessage `json:"hourly"`
+}
+
+func (r forecastResponse) values(name string, want int) ([]float64, error) {
+	raw, ok := r.Hourly[name]
+	if !ok {
+		return nil, fmt.Errorf("missing %s in forecast response", name)
+	}
+	var values []float64
+	if err := json.Unmarshal(raw, &values); err != nil {
+		return nil, fmt.Errorf("decoding %s: %w", name, err)
+	}
+	if len(values) != want {
+		return nil, fmt.Errorf("expected %d %s values, got %d", want, name, len(values))
+	}
+	return values, nil
+}
+
+func (r forecastResponse) soundings() ([]*NOAA, error) {
+	var timestamps []string
+	rawTimes, ok := r.Hourly["time"]
+	if !ok {
+		return nil, fmt.Errorf("missing times in forecast response")
+	}
+	if err := json.Unmarshal(rawTimes, &timestamps); err != nil {
+		return nil, fmt.Errorf("decoding forecast times: %w", err)
+	}
+
+	type levelData struct{ temp, dew, wind, direction, height []float64 }
+	levels := make([]levelData, len(pressureLevels))
+	for i, pressure := range pressureLevels {
+		var err error
+		for _, field := range []struct {
+			name string
+			target *[]float64
+		}{
+			{fmt.Sprintf("temperature_%dhPa", pressure), &levels[i].temp},
+			{fmt.Sprintf("dew_point_%dhPa", pressure), &levels[i].dew},
+			{fmt.Sprintf("wind_speed_%dhPa", pressure), &levels[i].wind},
+			{fmt.Sprintf("wind_direction_%dhPa", pressure), &levels[i].direction},
+			{fmt.Sprintf("geopotential_height_%dhPa", pressure), &levels[i].height},
+		} {
+			*field.target, err = r.values(field.name, len(timestamps))
 			if err != nil {
-				return nil, fmt.Errorf("failed parsing time header %q: %s", line, err)
+				return nil, err
 			}
-			log.Printf("Found forecast for time: %s", t)
-			ns = append(ns, &NOAA{
-				Time: t,
-			})
-
-			scanner.Scan() // Skip CAPE line
-			scanner.Scan() // Skip garbage line
-			scanner.Scan() // Skip garbage line
-			scanner.Scan() // Skip coords line
-			continue
-		}
-		if len(ns) == 0 {
-			continue
-		}
-		// Update the last forecast item.
-		n := ns[len(ns)-1]
-		fields := strings.Fields(line)
-		if err := n.appendFields(fields); err != nil {
-			return nil, fmt.Errorf("failed loading fields %q: %s", fields, err)
 		}
 	}
-	ns = interpolateMissingHours(ns)
-	return ns, scanner.Err()
-}
 
-func appendInt(a *[]int, s string, scale float32) error {
-	v, err := strconv.Atoi(s)
-	if err != nil {
-		return err
-	}
-	*a = append(*a, int(float32(v)*scale))
-	return nil
-}
-
-// Matches regexp headers:
-//  GFS analysis valid for grid point 13.1 nm / 243 deg from 32.6,35.23:
-//  GFS         0      20      Jun    2020
-var (
-	forecastHeader1 = regexp.MustCompile("^GFS .* for grid point")
-	forecastHeader2 = regexp.MustCompile(`^GFS\s+(\d+)\s+(\d+)\s+(\w+)\s+(\d+)$`)
-)
-
-func parseTimeLine(line string) (time.Time, error) {
-	timeStr := strings.Join(forecastHeader2.FindStringSubmatch(line)[1:], " ")
-	return time.Parse("15 2 Jan 2006", timeStr)
-}
-
-func interpolateMissingHours(values []*NOAA) []*NOAA {
-	if len(values) == 0 {
-		return nil
-	}
-	out := []*NOAA{values[0]}
-	for _, next := range values {
-		last := out[len(out)-1]
-		for t := last.Time.Add(time.Hour); t.Before(next.Time); t = t.Add(time.Hour) {
-			r := float64(t.Hour()-last.Time.Hour()) / float64(next.Time.Hour()-last.Time.Hour())
-			out = append(out, &NOAA{
-				Time:      t,
-				Pressure:  interpolate(r, last.Pressure, next.Pressure),
-				Height:    interpolate(r, last.Height, next.Height),
-				Temp:      interpolate(r, last.Temp, next.Temp),
-				Dew:       interpolate(r, last.Dew, next.Dew),
-				WindDir:   interpolate(r, last.WindDir, next.WindDir),
-				WindSpeed: interpolate(r, last.WindSpeed, next.WindSpeed),
-			})
+	result := make([]*NOAA, 0, len(timestamps))
+	for i, timestamp := range timestamps {
+		t, err := time.Parse("2006-01-02T15:04", timestamp)
+		if err != nil {
+			return nil, fmt.Errorf("parsing forecast time %q: %w", timestamp, err)
 		}
-		out = append(out, next)
+		n := &NOAA{Time: t}
+		for j, pressure := range pressureLevels {
+			level := levels[j]
+			n.Pressure = append(n.Pressure, pressure)
+			n.Height = append(n.Height, rounded(level.height[i]*3.28084))
+			n.Temp = append(n.Temp, rounded(level.temp[i]))
+			n.Dew = append(n.Dew, rounded(level.dew[i]))
+			n.WindSpeed = append(n.WindSpeed, rounded(level.wind[i]))
+			n.WindDir = append(n.WindDir, rounded(level.direction[i]))
+		}
+		result = append(result, n)
 	}
-	return out
+	return result, nil
 }
 
-func interpolate(r float64, x1 []int, x2 []int) []int {
-	if len(x1) != len(x2) {
-		panic("not equal len")
-	}
-	ret := make([]int, len(x1))
-	for i := range x1 {
-		ret[i] = x1[i] + int(r*float64(x2[i]-x1[i]))
-	}
-	return ret
-}
+func rounded(v float64) int { return int(math.Round(v)) }
